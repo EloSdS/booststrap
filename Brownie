@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.html" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tudo Saboroso</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    <a class="nav-link" href="#">Algo</a>
+                    <a class="nav-link" href="#">Alguma coisa</a>
+                    <a class="nav-link disabled">@tudosaboroso.com</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">O que precisa para a receita? </p>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ingrediente</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Preparar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Margarina</td>
+                <td>6 colheres de sopa</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Chocolate</td>
+                <td>3/4 xícaras de chá</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Choclate em pó</td>
+                <td>1/2 xícara de chá</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Açúcar</td>
+                <td>2 xícaras de chá</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Farinha de Trigo</td>
+                <td>1 e 1/4 xícaras de chá</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Ovo</td>
+                <td>4</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Sal</td>
+                <td>2 pitadas</td>
+                <td>Massa</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Nozes ou Castanhas</td>
+                <td>1/2 xícara de chá</td>
+                <td>Massa</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">Modo de preparo | Tempo de preparo: 40 minutos </p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <h4>Massa</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">1</span>
+            Misture ovos e o açúcar.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">2</span>
+            Em seguida, agregue todos os outros ingredientes até formar um creme uniforme.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">3</span>
+            Despeje em uma assadeira, forrada com papel-manteiga e leve ao forno médio por 40 minutos.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">4</span>
+            O brownie estará pronto quando a parte de cima estiver levemente corada e, ao se espetar um palito, ele
+            esteja levemente úmido.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">5</span>
+            Corte em quadrados ainda quente, congele num saquinho no freezer.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">6</span>
+            Para descongelar, coloque o brownie num prato de sobremesa e aqueça no micro-ondas, potência alta, por 1
+            minuto.
+        </li>
+    </ul>
+    <br>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">Quer comentar? </p>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Faça um comentário sobre a receita!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-dark" type="submit">Enviar comentário</button>
+    </div>
+</body>
+
+</html>
