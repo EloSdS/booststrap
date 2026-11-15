@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.html" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tudo Saboroso</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    <a class="nav-link" href="#">Algo</a>
+                    <a class="nav-link" href="#">Alguma coisa</a>
+                    <a class="nav-link disabled">@tudosaboroso.com</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">O que precisa para a receita? </p>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ingrediente</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Preparar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Bolacha de Maisena</td>
+                <td>1 Pacote</td>
+                <td>Estrutura</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Leite</td>
+                <td>1/2 copo</td>
+                <td>Estrutura</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Leite Condensado</td>
+                <td>1 Lata</td>
+                <td>Creme Branco</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Leite</td>
+                <td>1 lata</td>
+                <td>Creme Branco</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Amido de Milho</td>
+                <td>1 colher</td>
+                <td>Creme Branco</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Ovo</td>
+                <td>2 gemas</td>
+                <td>Creme Branco</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Leite Condensado</td>
+                <td>1 lata</td>
+                <td>Creme de Chocolate</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Chocolate em pó</td>
+                <td>4 colheres de sopa</td>
+                <td>Creme de Chocolate</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Leite</td>
+                <td>1 lata</td>
+                <td>Creme de Chocolate</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Ámido de milho</td>
+                <td>1 colher</td>
+                <td>Creme de Chocolate</td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>Ovo</td>
+                <td>2 gemas</td>
+                <td>Creme de Chocolate</td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>Ovo</td>
+                <td>4 claras</td>
+                <td>Cobertura</td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>Açúcar</td>
+                <td>4 colheres</td>
+                <td>Cobertura</td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>Creme de leite</td>
+                <td>1 lata</td>
+                <td>Cobertura</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">Modo de preparo | Tempo de preparo: 40 minutos </p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <h4>Estrutura</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">1</span>
+            Em uma tigela, misture o leite e o chocolate em pó até que esteja completamente dissolvido.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">2</span>
+            Molhe as bolachas no leite e reserve.
+        </li>
+        <br>
+        <h4>Creme Branco</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">3</span>
+            Em uma panela, leve todos os ingredientes ao fogo médio e misture até obter uma consistência grossa e
+            cremosa.
+        </li>
+        <br>
+        <h4>Creme de Chocolate</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">4</span>
+            Repita o processo feito no creme branco.
+        </li>
+        <br>
+        <h4>Para a Cobertura</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">5</span>
+            Bata as claras em neve com o açúcar até obter um creme consistente, adicione o creme de leite e misture
+            delicadamente.
+        </li>
+        <br>
+        <h4>Montagem</h4>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">6</span>
+            Em um refratário grande, despeje o creme branco, metade das bolachas, creme de chocolate, bolachas e claras
+            em neve.
+        </li>
+        <li class="list-group-item d-flex align-items-center gap-3">
+            <span class="badge rounded-circle bg-dark d-inline-flex justify-content-center align-items-center"
+                style="width: 28px; height: 28px;">7</span>
+            Repita o processo até preencher todo o refratário e leve à geladeira por 40 minutos.
+        </li>
+    </ul>
+    <br>
+    <div class="alert alert-dark text-dark d-flex justify-content-center align-items-center" style="height: 80px;">
+        <p class="mb-0 fw-bold">Quer comentar? </p>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Faça um comentário sobre a receita!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-dark" type="submit">Enviar comentário</button>
+    </div>
+</body>
+
+</html>
