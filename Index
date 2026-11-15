@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tudo Saboroso</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    <a class="nav-link" href="#">Algo</a>
+                    <a class="nav-link" href="#">Alguma coisa</a>
+                    <a class="nav-link disabled">@tudosaboroso.com</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <div class="card" style="width: 16rem;">
+            <img src="imagem1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bolo de Cenoura</h5>
+                <p class="card-text">O bolo de cenoura com cobertura de chocolate é um dos maiores clássicos da
+                    confeitaria caseira brasileira. Clique no botão abaixo para saber a receita: </p>
+                <a href="bolo.html" class="btn btn-dark">Receita</a>
+            </div>
+        </div>
+        <div class="card" style="width: 16rem;">
+            <img src="imagem2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pavê de Chocolate</h5>
+                <p class="card-text">Com ingredientes básicos como biscoitos, creme de leite, leite condensado e
+                    chocolate, você fez a melhor sobremesa. Clique no botão abaixo para saber mais: </p>
+                <a href="pave.html" class="btn btn-dark">Receita</a>
+            </div>
+        </div>
+        <div class="card" style="width: 16rem;">
+            <img src="imagem3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Brownie</h5>
+                <p class="card-text">Top melhores receitas fáceis e simples de fazer, além de ser muito saboroso é
+                    perfeito para dividir. Para saber a receita completa clique no botão abaixo: </p>
+                <a href="brownie.html" class="btn btn-dark">Receita</a>
+            </div>
+        </div>
+    </div>
+    <!-- Carrega o JavaScript do Bootstrap direto da sua pasta local -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
